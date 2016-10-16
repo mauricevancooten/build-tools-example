@@ -6,9 +6,12 @@ Node.js
 
 ## Instructions
 
-1. Install dependencies
+### Install dependencies
+
 run: `npm install`
-2. Run one of the following build scripts.
+
+### Run one of the following build scripts.
+
 * Compile CSS
 
 run: `npm run build:css`
