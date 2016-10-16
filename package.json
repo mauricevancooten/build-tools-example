@@ -2,6 +2,7 @@
   "name": "build-tools-example",
   "version": "0.0.1",
   "devDependencies": {
+    "browser-sync": "^2.17.3",
     "browserify": "^13.1.0",
     "jshint": "^2.9.3",
     "node-sass": "^3.10.1",
@@ -16,6 +17,7 @@
     "prebuild:js": "npm run lint",
     "build:browserify": "mkdir -p public/js && browserify src/js/main.js > public/js/bundle.js",
     "build:js": "watch 'npm run build:browserify' src/js/",
-    "build:watch": "watch 'npm run build' src/"
+    "build:watch": "watch 'npm run build' src/",
+    "browser-sync": "browser-sync start --server --files '*.html' 'public/'"
   }
 }
