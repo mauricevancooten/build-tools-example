@@ -25,6 +25,11 @@ Lint and Browserify JavaScript and watch the 'src/js' directory for changes.
 run: `npm run build watch`
 Compile Sass to CSS, Lint and Browserify JavaScript and watch the 'src' directory for changes.
 
+* Browsersync
+
+run: `npm run browser-sync`
+Sync browser when all HTML files and all files in the 'public' directory change.
+
 ## Licence
 
 Licensed under the MIT Licence
