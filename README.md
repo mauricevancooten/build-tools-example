@@ -10,6 +10,8 @@ Node.js
 
 run: `npm install`
 
+2. Run one of the following build scripts.
+
 * Compile CSS
 
 run: `npm run build:css`
