@@ -30,6 +30,8 @@ Compile Sass to CSS, Lint and Browserify JavaScript and watch the 'src' director
 
 * Browsersync
 
+While watch tasks are running open a new Terminal window to run Browsersync.
+
 run: `npm run browser-sync`
 
 Sync browser when all HTML files and all files in the 'public' directory change.
