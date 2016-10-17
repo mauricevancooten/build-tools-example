@@ -1,5 +1,7 @@
 # Build Tools Example
 
+Example of build tools using NPM scripts.
+
 ## Dependencies
 
 Node.js
