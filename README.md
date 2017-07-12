@@ -40,6 +40,12 @@ run: `npm run browser-sync`
 
 Sync browser when all HTML files and all files in the 'public' directory change.
 
+* Compile CSS, Lint, Browserify JavaScript and Browser-sync
+
+run: `npm run compile:sync`
+
+Compile Sass to CSS, Lint and Browserify JavaScript, watch the 'src' directory for changes and sync browser.
+
 ## Licence
 
 Licensed under the MIT Licence
