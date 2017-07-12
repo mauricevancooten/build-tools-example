@@ -1,6 +1,6 @@
-# Build Tools Example
+# compile Tools Example
 
-Example of build tools using NPM scripts.
+Example of compile tools using NPM scripts.
 
 ## Dependencies
 
@@ -12,23 +12,23 @@ Node.js
 
 run: `npm install`
 
-### Run one of the following build scripts.
+### Run one of the following compile scripts.
 
 * Compile CSS
 
-run: `npm run build:css`
+run: `npm run compile:css`
 
 Compile Sass to CSS and watches the 'src/sass' directory for changes.
 
 * Lint and Browserify JavaScript
 
-run: `npm run build:js`
+run: `npm run compile:js`
 
 Lint and Browserify JavaScript and watch the 'src/js' directory for changes.
 
 * Compile CSS, Lint and Browserify JavaScript
 
-run: `npm run build watch`
+run: `npm run compile watch`
 
 Compile Sass to CSS, Lint and Browserify JavaScript and watch the 'src' directory for changes.
 
